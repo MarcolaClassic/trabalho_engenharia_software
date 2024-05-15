@@ -1,11 +1,12 @@
 body{
     margin: 0px;
     background-color: #EDE4DB;
+    min-width: 300px;
 }
 
 header{
     background-image: url(./imagens/imagem\ header_preto&branco.jpg);
-    height: 200px;
+    min-height: 150px;
     margin-top: 0px;
     background-size: cover;
     background-position: center center;
@@ -13,31 +14,32 @@ header{
 }
 
 header > h1{
+    max-height: auto;
     color: #C52D3A;
-    margin-top: 0px;
+    padding-top: 15px;
     text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    margin: -20px 0 0 -20px;
+    display: block;
+    margin: auto;
 }
 
-main > img{
+.imagem_introducao{
     width: auto;
-    height: 500px;
     display: block;
     margin: auto;
     padding-top: 30px;
 }
 
 main > p{
-    width: 700px;
+    max-width: 700px;
+    min-width: 250px;
     display: block;
     margin: auto;
     padding-top: 20px;
     text-align: justify;
     text-indent: 20px;
     font-size: 1.2em;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .opcao{
