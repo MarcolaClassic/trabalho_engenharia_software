@@ -22,6 +22,12 @@ header > h1{
     margin: auto;
 }
 
+nav{
+    position: fixed;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
 main > picture > img{
     width: auto;
     display: block;
@@ -42,6 +48,10 @@ main > picture > img{
     padding-right: 20px;
 }
 
+li::marker{
+    padding-left: 10px;
+}
+
 .voltar{
     color: #EDE4DB;
     background-color: #C52D3A;
@@ -50,4 +60,16 @@ main > picture > img{
     border-radius: 10px;
     text-align: center; 
     font-size: 1.5em;
+}
+
+footer{
+    background-color: #751A23;
+    padding: 10px;
+}
+
+footer > p{
+    text-align: center;
+    color: white;
+    margin: 0px;
+    font-size: 1.1em;
 }
