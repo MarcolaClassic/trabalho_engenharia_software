@@ -48,6 +48,10 @@ main > picture > img{
     padding-right: 20px;
 }
 
+.conteudo > li > a, .conteudo > li > a:visited{
+    color: #C52D3A;
+}
+
 li::marker{
     padding-left: 10px;
 }
