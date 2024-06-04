@@ -28,6 +28,12 @@ nav{
     padding-left: 5px;
 }
 
+header > div > a > img{
+    padding: 10px;
+    display: inline-block;
+    position: fixed;
+}
+
 main > picture > img{
     width: auto;
     display: block;
@@ -69,6 +75,7 @@ li::marker{
 footer{
     background-color: #751A23;
     padding: 10px;
+    margin-top: 20px;
 }
 
 footer > p{
