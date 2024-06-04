@@ -41,25 +41,25 @@ main > picture > img{
     padding-top: 30px;
 }
 
+#paragrafo{
+    padding: 10px;
+}
+
 .conteudo{
     max-width: 700px;
     min-width: 250px;
     display: block;
     margin: auto;
-    padding-top: 20px;
     text-align: justify;
     text-indent: 20px;
     font-size: 1.2em;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .conteudo > li > a, .conteudo > li > a:visited{
     color: #C52D3A;
-}
-
-li::marker{
-    padding-left: 10px;
 }
 
 .voltar{
